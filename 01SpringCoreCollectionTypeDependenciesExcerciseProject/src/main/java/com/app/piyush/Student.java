@@ -5,14 +5,14 @@ import java.util.Map;
 import java.util.Set;
 
 public class Student {
-	
+
 	private String name;
-	
-	private List<String>phones;
-	
-	private Set<String>adresses;
-	
-	private Map<String,String>courses;
+
+	private List<String> phones;
+
+	private Set<String> adresses;
+
+	private Map<String, String> courses;
 
 	public Student() {
 		super();
@@ -54,7 +54,5 @@ public class Student {
 	public String toString() {
 		return "Student [name=" + name + ", phones=" + phones + ", adresses=" + adresses + ", courses=" + courses + "]";
 	}
-	
-	
 
 }
